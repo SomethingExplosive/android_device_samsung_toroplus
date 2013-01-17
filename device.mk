@@ -25,7 +25,11 @@ PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
 
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.config.vc_call_vol_steps=7
+    ro.error.receiver.system.apps=com.google.android.feedback \
+    ro.error.receiver.default=com.samsung.receiver.error \
+    drm.service.enabled=true \
+	ro.config.vc_call_vol_steps=7 \
+    ro.camera.res=5MP
 
 $(call inherit-product, device/samsung/tuna/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/toroplus/device-vendor.mk)
