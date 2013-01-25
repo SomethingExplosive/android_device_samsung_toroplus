@@ -93,12 +93,4 @@
     <!-- Set to true if the RSSI should always display CDMA signal strength -->
     <bool name="config_alwaysUseCdmaRssi">true</bool>
 
-    <!-- This is temporary until it gets put into a common overlay -->
-    <string-array name="config_locationProviderPackageNames" translatable="false">
-        <!-- The standard AOSP fused location provider -->
-        <item>com.android.location.fused</item>
-        <!-- The Google provider -->
-        <item>com.google.android.location</item>
-    </string-array>
-
 </resources>
