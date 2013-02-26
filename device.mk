@@ -28,7 +28,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.error.receiver.system.apps=com.google.android.feedback \
     ro.error.receiver.default=com.samsung.receiver.error \
     drm.service.enabled=true \
-	ro.config.vc_call_vol_steps=7 \
+    ro.config.vc_call_vol_steps=7 \
     ro.camera.res=5MP
 
 $(call inherit-product, device/samsung/tuna/device.mk)
