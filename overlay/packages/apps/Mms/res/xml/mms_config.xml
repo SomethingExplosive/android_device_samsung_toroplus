@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<mms_config version="2">
+<mms_config version="4">
      <!-- UAProf URL -->
     <string name="uaProfUrl">http://device.sprintpcs.com/Samsung/SPH-L700/latest</string>
 
