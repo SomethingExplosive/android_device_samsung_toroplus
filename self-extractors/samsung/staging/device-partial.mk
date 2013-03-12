@@ -17,6 +17,7 @@ PRODUCT_PACKAGES := \
     BIP \
     SDM \
     SecPhone \
+    SprintExtension \
     SyncMLSvc \
     fRom \
     libsecril-client \
