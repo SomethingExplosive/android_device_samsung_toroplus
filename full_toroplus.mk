@@ -22,7 +22,7 @@
 #
 
 # Get the long list of APNs
-#PRODUCT_COPY_FILES := device/samsung/toroplus/test-apns-conf_sprint.xml:system/etc/apns-conf.xml
+# PRODUCT_COPY_FILES := device/samsung/toroplus/test-apns-conf_sprint.xml:system/etc/apns-conf.xml
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -36,4 +36,4 @@ PRODUCT_NAME := full_toroplus
 PRODUCT_DEVICE := toroplus
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Full AOSP on Toroplus
-PRODUCT_RESTRICT_VENDOR_FILES := true
+#PRODUCT_RESTRICT_VENDOR_FILES := true
