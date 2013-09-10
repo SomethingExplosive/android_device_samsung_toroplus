@@ -33,4 +33,4 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/toroplus
 BOARD_INVENSENSE_APPLY_COMPASS_NOISE_FILTER := true
 
 # libsec-ril_lte.so is broke due to a missing symbol in surfacecomposerclient
-TOROPLUS_RADIO := true
+TARGET_TOROPLUS_RADIO := true
